@@ -40,8 +40,51 @@
     font-size: 50px;
 }
 
-/*.background-image {
-    background: url('../images/Background.png') bottom;
-    background-repeat: no-repeat;
-    height: 600px; width: 100%;
-}*/
+/* ########### secion 1 ############*/
+
+.section__primary {
+    text-align: center;
+}
+
+.section__primary--title {
+    font-size: 36px;
+}
+
+.section__primary--items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section__primary--box {
+    height: 100px;
+    width: 150px;
+    background-color: darkgreen;
+    border: 1px solid #333;
+}
+
+/* ############ section 2 ############# */
+
+.section__wrapper {
+    background-color: #F7F7F7;
+}
+
+.section__secondary {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+
+.section__secondary--table {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 40px;
+}
+.section__secondary--img img {
+    height: 200px;
+}
