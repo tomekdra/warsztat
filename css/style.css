@@ -102,93 +102,7 @@ html {
     box-shadow: 2px 2px 5px #000;
 }
 
-/* ########### section 1 ############*/
-/* ################################ */
-.section__primary--title {
-    text-align: center;
-    margin: 100px 0;
-}
-.section__primary {
-    margin-bottom: 100px;
-}
 
-.section__title {
-    font-size: 42px;
-}
-
-
-.section__primary--items {
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.section__primary--box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 150px;
-}
-
-.section__box {
-    height: 63px;
-    width: 63px;
-    border-radius: 50%;
-    /*background: var(--pink);*/
-    position: relative;
-}
-
-.pink {
-    background: var(--pink);
-}
-.blue {
-    background: var(--blue);
-}
-.green {
-    background: var(--neon-green);
-}
-
-.pink::before {
-    content: '';
-    background: url("../images/Person.svg") no-repeat;
-    height: 100%;
-    width: 100%;
-    display: block;
-    position: absolute;
-    left: 50%;
-}
-.blue::before {
-    content: '';
-    background: url("../images/Eye.svg") no-repeat;
-    height: 100%;
-    width: 100%;
-    display: block;
-    position: absolute;
-    left: 40%;
-    top: 25%;
-}
-.green::before {
-    content: '';
-    background: url("../images/Catalog.svg") no-repeat;
-    height: 100%;
-    width: 100%;
-    display: block;
-    position: absolute;
-    left: 40%;
-}
-
-strong {
-    font-size: 24px;
-    letter-spacing: 6px;
-    font-weight: bold;
-    margin: 10px 0;
-}
-.section__primary p {
-    font-size: 20px;
-    color: var(--light-grey);
-    margin-top: 20px;
-    text-align: center;
-}
 /* ############ section 2 ############# */
 /* #################################### */
 
@@ -240,8 +154,8 @@ strong {
 .section__secondary--img::before {
     content: '';
     display: block;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     background: var(--pink);
     transform: rotate(45deg);
     border-radius: 30%;
