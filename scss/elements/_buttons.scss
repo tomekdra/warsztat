@@ -1,0 +1,16 @@
+.header__button {
+  background-color: #08A6E4;
+  padding: 20px 150px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+.header__button:hover {
+  background-image: linear-gradient(#08A6E4, #0C86A6);
+}
+
+.header__button:active {
+  box-shadow: 2px 2px 5px #000;
+}
